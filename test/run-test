@@ -1,0 +1,18 @@
+set -e
+
+fail() {
+  echo fail: $1
+  exit 1
+}
+
+output=$(echo hello | node test/test.js)
+if [[ $output != "stdin: hello" ]]; then
+  fail "piped in stdin"
+fi
+
+output=$(node test/test.js < test/file)
+if [[ $output != "stdin: hi there" ]]; then
+  fail "piped in file"
+fi
+
+echo pass
