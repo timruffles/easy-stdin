@@ -1,5 +1,7 @@
 # easy-stdin
 
+[![npm version](https://badge.fury.io/js/easy-stdin.svg)](https://www.npmjs.org/package/easy-stdin)
+
 Want to read the whole of stdin easily?
 
 ```javascript
@@ -15,3 +17,9 @@ stdin(function(err, data) {
 ```
 
 That is all.
+
+## Install
+
+```sh
+npm install easy-stdin
+```

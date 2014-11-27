@@ -1,12 +1,23 @@
 {
   "name": "easy-stdin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Want to read the whole of stdin easily?",
   "main": "index.js",
   "scripts": {
     "test": "bash test/run-test"
   },
-  "files": ["README.md", "index.js"],
+  "files": [
+    "README.md",
+    "index.js"
+  ],
   "author": "Tim Ruffles <timruffles@googlemail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timruffles/easy-stdin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timruffles/easy-stdin/issues"
+  },
+  "homepage": "https://github.com/timruffles/easy-stdin"
 }
